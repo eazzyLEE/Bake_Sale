@@ -8,10 +8,13 @@
     "eslint": "eslint --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@types/lodash.debounce": "^4.0.4",
+    "lodash.debounce": "^4.0.8",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",

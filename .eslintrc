@@ -1,8 +1,12 @@
 {
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "node": true
     },
+    "plugins": [
+        "react"
+    ],
     "globals": {
         "chrome": true
     },
@@ -18,5 +22,8 @@
             "modules": true
         }
     },
-    "extends": "eslint:recommended"
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ]
 }
